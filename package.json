@@ -1,0 +1,27 @@
+{
+  "name": "minimal-ts-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc -W"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
