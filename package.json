@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "tsc",
-    "dev": "tsc -W"
+    "build": "tsup ./src",
+    "dev": "tsup ./src --watch"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +16,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.1.0",
+    "tsup": "^8.0.1",
     "typescript": "^5.3.2"
   },
   "config": {
